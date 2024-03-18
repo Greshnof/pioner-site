@@ -1,0 +1,20 @@
+.about {
+  &__text {
+    margin-bottom: 32px;
+    column-gap: var(--gap);
+    row-gap: 24px;
+  }
+
+  &__descr {
+    grid-column: 6 span;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--dark);
+  }
+
+  &__image {
+    grid-column: 6 span;
+  }
+}
